@@ -15,6 +15,7 @@ export function Demo() {
           <Route path={'/assets/:guid/details'} element={<EgeriaAssetDetails apiUrl={'http://localhost:9000'}/>} />
           <Route path={'/assets/catalog'} element={<EgeriaAssetCatalog apiUrl={'http://localhost:9000'} />} />
           <Route path={'/glossary'} element={<EgeriaGlossary />} />
+          <Route path={'/gina'} element={<button>Hi, I am Gina</button>} />
         </Routes>
       </Router>
     </div>
